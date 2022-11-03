@@ -1,6 +1,6 @@
 <?php
 
-echo '<h1> prvy popis </h1>';
+echo '<h1> I </h1>';
 
-echo '<p>We first</p>';
+echo '<p> Lover maria</p>';
 ?>
