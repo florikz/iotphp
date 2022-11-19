@@ -1,13 +1,22 @@
-<!DOCTYPE HTML>
+<?php header('Content-type: text/html; charset=utf-8'); ?>
+<!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8">
-  <title>Данные формы</title>
- </head>
- <body>
-  <form action="/example/handler.php">
-   <p><input name="login"> <input type="password" name="pass"></p>
-   <p><input type="submit"></p>
-  </form>
- </body>
+<head>
+<title>Страница</title>
+<meta charset="utf-8">
+</head>
+<body>
+<p>Авторизация:</p>
+<form action="authorization.php" method="post">
+  <input name="login" placeholder="Логин">
+  <input type="password" name="password" placeholder="Пароль">
+  <input type="submit" value="Войти">
+</form>
+<p>Регистрация:</p>
+<form action="registration.php" method="post">
+  <input name="login" placeholder="Логин">
+  <input type="password" name="password" placeholder="Пароль">
+  <input type="submit" value="Зарегистрароваться">
+</form>
+</body>
 </html>
