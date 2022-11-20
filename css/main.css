@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: Montserrat, sans-serif;
 }
 
@@ -18,4 +22,12 @@ input {
     padding: 10px;
     border:  unset;
     border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+button{
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
 }
