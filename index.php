@@ -8,11 +8,13 @@
 <body>
         <form action = "" method = "">
             <label>Name</label>
-            <input type="text" name="login" placeholder="Enter your name">
+            <input type="text" name="name" placeholder="Enter your name">
             <label>Last name</label>
-            <input type="text" name="login" placeholder="Enter your last name">
+            <input type="text" name="last_name" placeholder="Enter your last name">
             <label>Login</label>
             <input type="text" name="login" placeholder="Enter login">
+            <label>Email</label>
+            <input type="emeil" name="emeil" placeholder="Enter login">
             <label>Password</label>
             <input type="password" name="password" placeholder="Enter your password">
             <label>Confirm password</label>
