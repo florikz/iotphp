@@ -31,6 +31,7 @@
             $str = "Name: " .$name."\n"."Last name: ".$last_name;
             ?>
             <?php
+            if(!($fp = fopen("log.txt", "a+"))) {echo "Не могу открыть файл!";}
             $fp = fopen("info.txt", "a+")
             fwrite($fp,$str);
             fclose($fp);
