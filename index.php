@@ -7,9 +7,9 @@
 </head>
 <body>
         <form action = "" method = "">
-            <label>Логин</label>
+            <label>Login</label>
             <input type="text" name="login" placeholder="Введите свой логин">
-            <label>Пароль</label>
+            <label>Password</label>
             <input type="password" name="password" placeholder="Введите пароль">
             <button type="submit">Войти</button>
         </form>    
