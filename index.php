@@ -29,8 +29,6 @@
             $password = $_POST['password'];
             $password_confirm = $_POST['password_confirm'];    
             $str = "Name: " .$name."\n"."Last name: ".$last_name;
-            ?>
-            <?php
             if(!($fp = fopen("log.txt", "a+"))) {echo "Не могу открыть файл!";}
             $fp = fopen("info.txt", "a+")
             fwrite($fp,$str);
