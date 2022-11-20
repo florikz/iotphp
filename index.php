@@ -12,7 +12,7 @@
             <input type = "text" placeholder = "Enter login">
             <label> Password</label>
             <input type = "password" placeholder = "Enter your password">
-            <button>Log in</button>
+            <button>Login</button>
         </form>    
 </body>
 </html>
