@@ -6,8 +6,9 @@
     <link rel = "stylesheet" href="css/main.css">
 </head>
 <body>
+    <center>
         <form action = "" method = "">
-            <center>
+            
             <label>Name</label>
             <input type="text" name="name" placeholder="Enter your name">
             <label>Last name</label>
@@ -21,7 +22,8 @@
             <label>Confirm password</label>
             <input type="password" name="password" placeholder="Enter your password again">
             <button type="submit">Log in</button>
-            </center>
-        </form>    
+            
+        </form> 
+        </center>
 </body>
 </html>
