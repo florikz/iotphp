@@ -31,6 +31,7 @@
             $str = "Name: " .$name."\n"."Last name: ".$last_name;    
             $f = fopen("qwerty_ggg.txt", 'w') or die("не удалось создать файл");
             fwrite($f, $login);
+            echo "login $login<br>";
             ?>
         </form> 
 </body>
