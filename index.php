@@ -7,15 +7,14 @@
     <title>Registration</title>
 </head>
 <body>
-
         <form action = "" method = "">
             <label>Login</lable>
-            <input type = "text">
+            <input type = "text" placeholder = "Enter login">
             <label> Password</label>
-            <input type = "password">
-            <button> Log in </button>
+            <input type = "password" placeholder = "Enter your password">
+            <button>Log in</button>
         </form>    
 </body>
 </html>
-    
+
 ?>
