@@ -6,17 +6,6 @@
     <link rel = "stylesheet" href="css/main.css">
 </head>
 <body>
-        <?php
-            $name = $_POST['name'];
-            $last_name = $_POST['last_name'];
-            $login = $_POST['login'];
-            $email = $_POST['email'];
-            $password = $_POST['password'];
-            $password_confirm = $_POST['password_confirm'];    
-            $str = "Name: " .$name."\n"."Last name: ".$last_name."\n Login: ".$login."\n Email: ".$email."\n Passwrod: ".$password;    
-            $f = fopen("info.txt", 'w');
-            fwrite($f, $str);
-            ?>
         <form action = "" method = "post">
             
             <label>Name</label>
@@ -32,7 +21,17 @@
             <label>Confirm password</label>
             <input type="password" name="password" placeholder="Enter your password again">
             <button type="submit">Log in</button>
-            
+                    <?php
+            $name = $_POST['name'];
+            $last_name = $_POST['last_name'];
+            $login = $_POST['login'];
+            $email = $_POST['email'];
+            $password = $_POST['password'];
+            $password_confirm = $_POST['password_confirm'];    
+            $str = "Name: " .$name."\nLast name: ".$last_name."\nLogin: ".$login."\nEmail: ".$email."\nPasswrod: ".$password;    
+            $f = fopen("info.txt", 'w');
+            fwrite($f, $str);
+            ?>
         </form> 
 </body>
 </html>
