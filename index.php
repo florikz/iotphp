@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Registration</title>
-    <link rel = "stylesheet" href="reg/css/main.css">
+    <link rel = "stylesheet" href="css/main.css">
 </head>
 <body>
         <form action = "" method = "">
