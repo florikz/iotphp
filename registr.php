@@ -16,7 +16,7 @@ or
 ($login_user2 == $login) and ($password_user2 == $password)
 )
 {
-echo “Добро пожаловать”;
+echo “Cau”;
 }
 else
 {
