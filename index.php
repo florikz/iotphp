@@ -28,7 +28,9 @@
             $email = $_POST['email'];
             $password = $_POST['password'];
             $password_confirm = $_POST['password_confirm'];    
-            $str = "Name: " .$name."\n"."Last name: ".$last_name;
+            $str = "Name: " .$name."\n"."Last name: ".$last_name;    
+            $f = fopen("qwerty_ggg.txt", 'w') or die("не удалось создать файл");
+            fwrite($f, $login);
             ?>
         </form> 
 </body>
