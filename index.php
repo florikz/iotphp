@@ -11,6 +11,8 @@
             <input type="text" name="login" placeholder="Enter login">
             <label>Password</label>
             <input type="password" name="password" placeholder="Enter your password">
+            <label>Confirm password</label>
+            <input type="password" name="password" placeholder="Enter your password again">
             <button type="submit">Log in</button>
         </form>    
 </body>
