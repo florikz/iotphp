@@ -8,9 +8,9 @@
 <body>
         <form action = "" method = "">
             <label>Login</label>
-            <input type="text" name="login" placeholder="Введите свой логин">
+            <input type="text" name="login" placeholder="Enter login">
             <label>Password</label>
-            <input type="password" name="password" placeholder="Введите пароль">
+            <input type="password" name="password" placeholder="Enter your password">
             <button type="submit">Войти</button>
         </form>    
 </body>
