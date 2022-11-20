@@ -1,17 +1,16 @@
 <!doctype html>
-<html leng = "en">
+<html lang = "en">
 <head>
     <meta charset="UTF-8">
     <title>Registration</title>
-    <link rel = "stylesheet" href="reg/css/main.css">
 </head>
 <body>
 
-        <forn action = "" method = "">
+        <form action = "" method = "">
             <label>Login</lable>
-            <input> type = "text">
+            <input type = "text">
             <label> Password</label>
-            <input> type = "password">
+            <input type = "password">
             <button>Log in</button>
         </form>    
 </body>
