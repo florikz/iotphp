@@ -5,7 +5,7 @@
     <title>Registration</title>
 </head>
 <body>
-        <link rel = "stylesheet" href="reg/css/main.css">
+        <link rel = "stylesheet" href="css/main.css">
         <form action = "" method = "">
             <label>Login</lable>
             <input type = "text" placeholder = "Enter login">
