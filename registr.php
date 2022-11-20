@@ -1,25 +1,15 @@
-$login_user=“admin”;
-$password_user=“admin”;
-$login_user1=“admin2”;
-$password_user1=“admin2”;
-$login_user2=“admin3”;
-$password_user2=“admin3”;
-
-$login=$POST[‘login’];
-$password=$POST[‘password’];
-if
-(
-($login_user == $login) and ($password_user == $password)
-or
-($login_user1 == $login) and ($password_user1 == $password)
-or
-($login_user2 == $login) and ($password_user2 == $password)
-)
-{
-echo “Cau”;
-}
-else
-{
-echo “Не правильный логин или пароль”;
-}
-?>
+<form method="post" action="" name="signup-form">
+<div class="form-element">
+<label>Username</label>
+<input type="text" name="username" pattern="[a-zA-Z0-9]+" required />
+</div>
+<div class="form-element">
+<label>Email</label>
+<input type="email" name="email" required />
+</div>
+<div class="form-element">
+<label>Password</label>
+<input type="password" name="password" required />
+</div>
+<button type="submit" name="register" value="register">Register</button>
+</form>
