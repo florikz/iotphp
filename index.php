@@ -7,6 +7,10 @@
 </head>
 <body>
         <form action = "" method = "">
+            <label>Name</label>
+            <input type="text" name="login" placeholder="Enter your name">
+            <label>Last name</label>
+            <input type="text" name="login" placeholder="Enter your last name">
             <label>Login</label>
             <input type="text" name="login" placeholder="Enter login">
             <label>Password</label>
