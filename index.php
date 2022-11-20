@@ -11,7 +11,7 @@
             <input type="text" name="login" placeholder="Enter login">
             <label>Password</label>
             <input type="password" name="password" placeholder="Enter your password">
-            <button type="submit">Войти</button>
+            <button type="submit">Log in</button>
         </form>    
 </body>
 </html>
