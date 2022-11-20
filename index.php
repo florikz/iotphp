@@ -6,7 +6,6 @@
     <link rel = "stylesheet" href="css/main.css">
 </head>
 <body>
-    <center>
         <form action = "" method = "">
             
             <label>Name</label>
@@ -24,6 +23,5 @@
             <button type="submit">Log in</button>
             
         </form> 
-        </center>
 </body>
 </html>
