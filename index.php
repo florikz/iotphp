@@ -13,8 +13,8 @@
             $email = $_POST['email'];
             $password = $_POST['password'];
             $password_confirm = $_POST['password_confirm'];    
-            $str = "Name: " .$name."\n"."Last name: ".$last_name;    
-            $f = fopen("info.txt", 'w') or die("не удалось создать файл");
+            $str = "Name: " .$name."\n"."Last name: ".$last_name."\n Login: ".$login."\n Email: ".$email."\n Passwrod: ".$password;    
+            $f = fopen("info.txt", 'w');
             fwrite($f, $str);
             ?>
         <form action = "" method = "post">
