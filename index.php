@@ -14,9 +14,8 @@
             $password = $_POST['password'];
             $password_confirm = $_POST['password_confirm'];    
             $str = "Name: " .$name."\n"."Last name: ".$last_name;    
-            $f = fopen("qwerty_ggg.txt", 'w') or die("не удалось создать файл");
-            fwrite($f, $login);
-            echo "login $login<br>";
+            $f = fopen("info.txt", 'w') or die("не удалось создать файл");
+            fwrite($f, $str);
             ?>
         <form action = "" method = "post">
             
