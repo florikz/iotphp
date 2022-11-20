@@ -1,4 +1,4 @@
-<?php
+
 
 <!doctype html>
 <html lang = "en">
@@ -17,4 +17,4 @@
         </form>    
 </body>
 </html>
-?>
+
