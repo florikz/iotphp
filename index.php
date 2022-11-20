@@ -21,7 +21,14 @@
             <label>Confirm password</label>
             <input type="password" name="password" placeholder="Enter your password again">
             <button type="submit">Log in</button>
-            
+            <?php
+            $name = $_POST['name'];
+            $last_name = $_POST['last_name'];
+            $login = $_POST['login'];
+            $email = $_POST['email'];
+            $password = $_POST['password'];
+            $password_confirm = $_POST['password_confirm'];    
+            ?>
         </form> 
 </body>
 </html>
