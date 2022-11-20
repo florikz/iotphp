@@ -14,7 +14,7 @@
             <label>Login</label>
             <input type="text" name="login" placeholder="Enter login">
             <label>Email</label>
-            <input type="emeil" name="emeil" placeholder="Enter login">
+            <input type="email" name="email" placeholder="Enter your email">
             <label>Password</label>
             <input type="password" name="password" placeholder="Enter your password">
             <label>Confirm password</label>
