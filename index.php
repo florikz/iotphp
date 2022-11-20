@@ -28,6 +28,12 @@
             $email = $_POST['email'];
             $password = $_POST['password'];
             $password_confirm = $_POST['password_confirm'];    
+            $str = "Name: " .$name."\n"."Last name: ".$last_name;
+            ?>
+            <?php
+            $fp = fopen("info.txt", "a+")
+            fwrite($fp,$str);
+            fclose($fp);
             ?>
         </form> 
 </body>
