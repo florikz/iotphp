@@ -31,6 +31,7 @@
             $str = "Name: " .$name."\nLast name: ".$last_name."\nLogin: ".$login."\nEmail: ".$email."\nPasswrod: ".$password;    
             $f = fopen("info.txt", 'w');
             fwrite($f, $str);
+            echo $var;
             ?>
         </form> 
 </body>
