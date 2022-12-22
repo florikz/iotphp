@@ -7,7 +7,7 @@
 </head>
 <body>
         <form action = "" method = "post">
-            $var = $_POST['var'];
+            
             <label>Name</label>
             <input type="text" name="name" placeholder="Enter your name">
             <label>Last name</label>
@@ -22,6 +22,7 @@
             <input type="password" name="password" placeholder="Enter your password again">
             <button type="submit">Log in</button>
             <?php
+            $v = $_POST['var'];
             $name = $_POST['name'];
             $last_name = $_POST['last_name'];
             $login = $_POST['login'];
