@@ -7,7 +7,7 @@
 </head>
 <body>
         <form action = "" method = "post">
-            
+            $var = 12;
             <label>Name</label>
             <input type="text" name="name" placeholder="Enter your name">
             <label>Last name</label>
