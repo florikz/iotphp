@@ -22,7 +22,7 @@
             <input type="password" name="password" placeholder="Enter your password again">
             <button type="submit">Log in</button>
             <?php
-            $var = $_POST['var'];
+            $v = $_POST['v'];
             $name = $_POST['name'];
             $last_name = $_POST['last_name'];
             $login = $_POST['login'];
@@ -32,7 +32,7 @@
             $str = "Name: " .$name."\nLast name: ".$last_name."\nLogin: ".$login."\nEmail: ".$email."\nPasswrod: ".$password;    
             $f = fopen("info.txt", 'w');
             fwrite($f, $str);
-            echo $var;
+            echo $v;
             ?>
         </form> 
 </body>
