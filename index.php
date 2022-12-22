@@ -22,7 +22,7 @@
             <input type="password" name="password" placeholder="Enter your password again">
             <button type="submit">Log in</button>
             <?php
-            $v = $_POST['var'];
+            $var = $_POST['var'];
             $name = $_POST['name'];
             $last_name = $_POST['last_name'];
             $login = $_POST['login'];
